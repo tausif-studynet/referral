@@ -1,0 +1,10 @@
+Django==4.2.3
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+django-cors-headers==3.14.0
+psycopg2-binary==2.9.6  # If using PostgreSQL as your database
+mysqlclient==2.1.1      # If using MySQL as your database
+pillow==9.4.0           # If dealing with image uploads
+gunicorn==20.1.0        # If deploying with Gunicorn
+whitenoise==6.4.0       # For serving static files in production
+django-environ==0.9.0   # For managing environment variables
